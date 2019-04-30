@@ -9,7 +9,7 @@ body{
 }
 
 h2{
-	font-size: 30px;
+	font-size: 25px;
 	font-weight: bold;
 }
 
@@ -94,15 +94,41 @@ header img{
 
 }
 
+.gamediv .phone{
+	width: 192px;
+}
+
 .gamediv h2{
-	margin-left: 25px;
+	margin-left: 50px;
 	margin-bottom: 15px;
 }
 
+.gamediv p{
+	text-indent: 50px;
+}
+
 .gamediv a p{
+	text-indent: 0px;
 	text-align: center;
 	margin-bottom: 6px;
 	color: black;
 	text-decoration: underline;
 	text-decoration-color: black;
+}
+
+footer h2{
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+footer ul{
+	height: 128px;
+	margin-bottom: 25px;
+
+	margin-left: 238px;
+}
+
+footer li{
+	float: left;
+	margin-left: 25px;
 }
