@@ -107,6 +107,10 @@ header img{
 	margin-bottom: 25px;
 }
 
+.bio a{
+	text-decoration: none;
+}
+
 .bioheader{
 	margin-top: 30px;
 	margin-left: 50px;
