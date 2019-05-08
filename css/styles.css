@@ -12,6 +12,10 @@ h2{
 	font-weight: bold;
 }
 
+h3{
+	font-weight: bold;
+}
+
 .container{
 	margin: 0 auto;
 	width: 960px;
@@ -153,6 +157,10 @@ header img{
 	color: black;
 	text-decoration: underline;
 	text-decoration-color: black;
+}
+
+.gamediv .bullet{
+	text-indent: 0px;
 }
 
 footer h2{
