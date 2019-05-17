@@ -20,11 +20,13 @@ h2{
 
 	border: 5px solid black;
 	border-radius: 10px;
-	background-color: rgba(255, 255, 255, 0.8);
+	background-color: rgba(255, 255, 255, 0.9);
 }
 
 .logo{
 	padding-top: 20px;
+	width: 960px;
+	height: auto;
 }
 
 nav{
@@ -91,10 +93,6 @@ nav button:hover{
     width: auto;
     height: 100%;
   }
-}
-
-header img{
-	padding-left: 150px;
 }
 
 .maindiv{
