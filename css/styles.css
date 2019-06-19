@@ -4,11 +4,12 @@ html{
 }
 body{
 	font-family: 'IBM Plex Sans', sans-serif;
-	font-size: 20px;
+	font-size: 16px;
 }
 
 h2{
-	font-size: 25px;
+	font-family: 'IBM Plex Serif', serif;
+	font-size: 20px;
 	font-weight: bold;
 }
 
@@ -24,7 +25,7 @@ h3{
 
 	border: 5px solid black;
 	border-radius: 10px;
-	background-color: rgba(255, 255, 255, 0.9);
+	background-color: rgba(255, 255, 255, 1);
 }
 
 .logo{
@@ -51,7 +52,25 @@ nav button{
 	border-radius: 5px;
 }
 
+.gamediv button{
+	float: left;
+	width: 200px;
+	height: 50px;
+	margin-left: 123px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	background-color: rgba(225, 225, 225);
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-size: 20px;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
 nav button:hover{
+	opacity: 0.6;
+}
+
+.gamediv button:hover{
 	opacity: 0.6;
 }
 
@@ -105,7 +124,6 @@ nav button:hover{
 
 .bio{
 	width: 860px;
-	text-indent: 50px;
 	margin-bottom: 25px;
 }
 
@@ -115,7 +133,6 @@ nav button:hover{
 
 .bioheader{
 	margin-top: 30px;
-	margin-left: 50px;
 	margin-bottom: 15px;
 }
 
@@ -127,7 +144,8 @@ nav button:hover{
 }
 
 .gamediv img{
-	margin-left: 15px;
+	margin-top: 50px;
+	margin-left: 30px;
 	width: 396px;
 	height: auto;
 
@@ -135,18 +153,24 @@ nav button:hover{
 
 }
 
+.gamediv .imageleft{
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+.gamediv .imageright{
+	margin-top: 0px;
+}
+
+
 .gamediv .phone{
-	width: 192px;
+	width: 178px;
 }
 
 .gamediv h2{
-	margin-left: 50px;
 	margin-bottom: 15px;
 }
 
-.gamediv p{
-	text-indent: 50px;
-}
 
 .gamediv a p{
 	text-indent: 0px;
@@ -189,4 +213,25 @@ a p:hover{
 
 .bold{
 	font-weight: 900;
+}
+
+.emailtext {
+	float: left;
+	margin-right: 333.7185px;
+	margin-left: 333.7185px;
+	margin-bottom: 20px;
+	margin-top: -10px;
+
+	font-size: 25px;
+	text-decoration: none;
+	color: black;
+}
+
+.gamediv .tools {
+	font-weight: bold;
+	text-indent: 0px;
+}
+
+.gamediv .goalindent {
+	margin-left: 14px;
 }
