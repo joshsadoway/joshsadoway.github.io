@@ -232,6 +232,16 @@ a p:hover{
 	text-indent: 0px;
 }
 
-.gamediv .goalindent {
-	margin-left: 14px;
+.gamediv ul li{
+	display: list-item;
+	list-style-type: circle;
+	list-style-position: outside;
+	margin-left: 1em;
+}
+
+.profilelist li {
+	display: list-item;
+	list-style-type: circle;
+	list-style-position: outside;
+	margin-left: 1em;
 }
